@@ -1,5 +1,5 @@
 # Countries App
-## A full-stack application to display country details, including a list of available countries, country-specific information, borders, and population trends over time.
+### A full-stack application to display country details, including a list of available countries, country-specific information, borders, and population trends over time.
 
 ## Back-End
 
@@ -7,7 +7,7 @@
 
 Clone the repository:
 ```bash
-    git clone https://github.com/RaphaelMarquesMartorella/countries-app-test.git
+git clone https://github.com/RaphaelMarquesMartorella/countries-app-test.git
 ```
 
 Navigate to the server folder:
@@ -30,7 +30,7 @@ The server will run on http://localhost:3001.
 
 ### Endpoints:
 
-GET `/api/v1/countries`: Retrieve a list of all available countries.
+GET `/api/v1/countries/availableCountries`: Retrieve a list of all available countries.
 
 GET `/api/v1/countries/countryInfo/:countryCode`: Retrieve detailed information about a specific country, including borders, population data, and flag.
 
