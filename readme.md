@@ -37,8 +37,6 @@ GET `/api/v1/countries/countryInfo/:countryCode`: Retrieve detailed information 
 ### Swagger UI
 
 Access API documentation at:
-```bash
-```
 
 http://localhost:3001/api-docs/
 
@@ -49,18 +47,18 @@ http://localhost:3001/api-docs/
 
 Navigate to the client folder:
 ```bash
-    cd client
+cd client
 ```
 
 Install dependencies:
 ```bash
-    npm install
+npm install
 ```
 
 
 Start the development server:
 ```bash
-    npm run dev
+npm run dev
 ```
 
 The application will run on http://localhost:3000.
@@ -74,7 +72,7 @@ The application will run on http://localhost:3000.
 
 #### Country Info Page:
 
-##### Displays detailed information about the selected country:
+#### Displays detailed information about the selected country:
 * Country Name: Prominently displayed.
 * Country Flag: Fetched from the backend.
 * Border Countries: Lists clickable neighboring countries.
@@ -88,15 +86,15 @@ The application will run on http://localhost:3000.
 
 #### Back-End:
 
-Node.js
-Express.js
-Swagger for API documentation
+* Node.js
+* Express.js
+* Swagger for API documentation
 
 #### Front-end:
 
-React.js
-Next.js
-Chart.js for data visualization
+* React.js
+* Next.js
+* Chart.js for data visualization
 
 Browse through the list of countries and click on a country name to view its details.
 
