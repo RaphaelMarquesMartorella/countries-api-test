@@ -12,7 +12,7 @@ app.use(cors());
 app.use('/api/v1/countries', countriesRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 
 app.listen(port, () => {
