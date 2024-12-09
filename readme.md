@@ -7,7 +7,7 @@
 
 Clone the repository:
 ```bash
-git clone https://github.com/RaphaelMarquesMartorella/countries-app-test.git
+git clone https://github.com/RaphaelMarquesMartorella/countries-app.git
 ```
 
 Navigate to the server folder:
